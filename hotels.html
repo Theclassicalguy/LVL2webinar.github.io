@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<head>
+<style>
+  body
+{ border:10px solid black;}
+
+.header{
+background-color:linen;
+padding:20px;
+text-align:left;}
+
+.container{
+float:right;
+width:100px;
+height:50px;
+padding-top:10px;
+}
+
+.btn{
+font-size:20px;
+}
+
+
+.middle{
+background-image:url('venice.jpg');
+padding:200px;
+text-align:center;
+opacity:.9;
+color:white;
+}
+
+
+.content
+{
+background-color:black;
+opacity:.7;
+font-size:30px;
+border:10px solid red;
+font-family:"Times New Roman";
+padding:20px;
+color:white;
+}
+
+
+.wrapper
+{
+padding:50px;
+text-align:center;
+background-color:white;
+width: 1000px;
+height: 2300px;
+border: 1px solid black;
+opacity: 0.9;
+margin: 50px;
+}
+
+
+footer{
+padding:15px;
+font-size:20px;
+background-color:lightblue;
+text-align:center;
+}
+
+.styled-table{
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: .9em;
+    font-family: sans-serif;
+   min-width: 400px;
+box-shadow:0 0 40px black;
+}
+
+
+thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+th,td{
+padding: 12px 15px;
+}
+
+tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+
+tr:nth-of-type(even)
+{background-color: #f3f3f3;}
+
+tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+
+tr.selected{
+ background-color:#333;  
+ color: #fff; 
+}
+
+tr:hover{background-color: #009879;}
+
+.logo{
+    float: left;
+    padding: 10px 0px;
+}
+
+nav{
+    float: center;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 3px;
+    position: relative;
+}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #9B1E7263;
+}
+
+nav a::before{
+    content: "";
+    display: inline-block;
+    height: 5px;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition:all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <img src="uk.jpg" height="50" width="50">
+        <div class="container">
+        <button class="btn"><a href="L1forms.html">Login </a></button>
+        
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">London Tour</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        </div>
+    <table border="1px solid black" align="center" >
+        <th colspan="14"><h2>Places to stay in The UK</h2></th>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th colspan="4">Image</th>
+                    <th colspan="4">Hotel Name</th>
+                    <th colspan="4">Price per night</th>
+                    <th colspan="4">Facilities  </th>
+    
+                </tr>
+            </thead>
+    <tr>
+        <td colspan="4"><img src="gman.jpg" height="200px" width="330px" ></td>
+        <td colspan="4"><a href="https://www.guardsmanhotel.com/">The Guardsman</a></td>
+        <td colspan="4">Rs 37,959</td>
+        <td colspan="4">Free Wifi, Lounge, Childrens Television Networks, Pets allowed, Public parking nearby,</td>
+    </tr>
+    
+    <tr>
+        <td colspan="4"><img src="centralpark.jpg" height="200px" ></td>
+        <td colspan="4"><a href="https://centralhotellondon.com/">Central Hotel London</a></td>
+        <td colspan="4">Rs 13,799</td>
+        <td colspan="4">Free Wifi, Taxi service, Newspaper, Express check in/out, Street Parking, Bicycle Rental,Vending Machine </td>
+    </tr>
+    
+    <tr>
+        <td colspan="4"><img src="president.jpg" height="200px" width="360px" ></td>
+        <td colspan="4"><a href="https://www.tripadvisor.in/Hotel_Review-g186338-d189041-Reviews-The_President_Hotel-London_England.html">The President Hotel</a></td>
+        <td colspan="4">Rs 13,102</td>
+        <td colspan="4">Free Wifi, Taxi Service, 24hr security, 24hr Check in, Private Parking, Bar/Lounge,Meeting Rooms </td>
+    </tr>
+    
+    <tr>
+        <td colspan="4"><img src="citadines.jpeg" height="200px" width="300px" ></td>
+        <td colspan="4"><a href="https://www.tripadvisor.in/Hotel_Review-g186338-d17670690-Reviews-Citadines_Islington_London-London_England.html">Citadines Islington London</a></td>
+        <td colspan="4"> Rs 26,678</td>
+        <td colspan="4">Free Wifi, 24hr Check in, Non-Smoking HOTEL, Pets Allowed, Gym,Public Parking</td>
+    </tr>
+    
+    <tr>
+        <td colspan="4"><img src="queen.jpg" height="200px"></td>
+        <td colspan="4"><a href="https://www.tripadvisor.in/Hotel_Review-g186338-d243471-Reviews-54_Queen_s_Gate_Hotel-London_England.html">54 Queen's Gate Hotel</a> </td>
+        <td colspan="4">Rs 23,738</td>
+        <td colspan="4">Bar/Lounge, Dry cleaning, Laundry Service, 24hr Security and Front Desk, Free wifi, express Check in/out</td>
+    </tr>
+    
+    
+    
+    
+    
+        </table>
+    
+    </table>  
+    <footer><p>To know more about the United Kingdom visit <a href="https://en.wikipedia.org/wiki/United_Kingdom">This page</a></p></footer>
+</body>
+
+</html>
